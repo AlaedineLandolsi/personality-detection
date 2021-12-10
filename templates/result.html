@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -126,4 +127,134 @@
   
   
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>.body {
+
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .main {
+    background-color: #FFFFFF;
+    width: 400px;
+    height:400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  }
+  
+  .sign {
+    padding-top: 40px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  
+  .un {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: 'Ubuntu', sans-serif;
+  }
+  
+  form.form1 {
+    padding-top: 40px;
+  }
+  
+  .pass {
+        width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: 'Ubuntu', sans-serif;
+  }
+  
+  
+  .un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+  
+  }
+  
+  
+  
+  .forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 15px;
+  }
+  
+  a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+    justify-items: baseline;
+  }
+  .title{margin-left: 100px;
+     color: #ff4411; font-size: 18px; font-family: 'Signika', sans-serif; padding-bottom: 10px; 
+  
+  }
+  .response{margin-left: 100px;
+     color: #4a960d; font-size: 18px; font-family: 'Signika', sans-serif; padding-bottom: 10px; 
+  
+  }
+  </style>
+</head>
+<body>
+  <div class="body">
+    <div class="main">
+      <p class="sign" style="text-align:center ;">Result</p>
+      <form class="form1">
+
+        <table >
+          {% for key, value in to_send.items() %}
+
+          <tr style="margin-bottom: 20px;">
+             <th class="title" style="padding-right: 150px;padding-left: 15px"> {{ key }} </th> <td class="response">  {{ value }}</td>   
+        </tr>
+          {% endfor %}
+       
+        </table>
+  
+      </div>
+      </div>
+  
+  
+</body>
+>>>>>>> a6b490e874ebed164a5831aa9f6b9547f79039b1
 </html>
