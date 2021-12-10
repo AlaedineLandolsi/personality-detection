@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 gunicorn==20.1.0
-=======
 argon2-cffi==21.1.0
 async-generator==1.10
 attrs==21.2.0
