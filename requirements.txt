@@ -7,6 +7,7 @@ Babel
 beautifulsoup4
 bitarray
 bkcharts
+virtualenv
 blaze
 bleach
 bokeh
@@ -68,7 +69,6 @@ mistune
 mpmath
 msgpack-python
 multipledispatch
-navigator-updater
 nbconvert
 nbformat
 networkx
@@ -154,7 +154,6 @@ typing
 typing_extensions
 unicodecsv
 urllib3
-virtualenv
 wcwidth
 webencodings
 Werkzeug
