@@ -64,7 +64,6 @@ lxml
 MarkupSafe
 matplotlib
 mccabe
-menuinst
 mistune
 mpmath
 msgpack-python
