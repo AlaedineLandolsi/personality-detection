@@ -1,9 +1,6 @@
 from flask import Flask,render_template,request
 import pickle
-import logging
 
-app.logger.addHandler(logging.StreamHandler(sys.stdout))
-app.logger.setLevel(logging.ERROR)
 app=Flask(__name__)
 
 
